@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ------------------Start Nav Bar---------------------- */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c0a9a9;
+    font-size: 1.4rem;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #6a6868;}
+  
+  ul.topnav li a.active {background-color: #5d8778;}
+  
+  ul.topnav li.right {float: right;}
+  
+  
+/* ---------------Nav Bar---End---------- */
+
+/* .div1{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    background-image: url("https://images.pexels.com/photos/6192756/pexels-photo-6192756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 50%;
+
+} */
+
+.div1 {
+    position: relative;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.div1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.pexels.com/photos/6192756/pexels-photo-6192756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.5; /* केवल बैकग्राउंड इमेज की opacity */
+    z-index: -1; /* इसे कंटेंट के पीछे रखने के लिए */
+}
+
+
+
+
+.left-div{
+    width: 60%;
+    /* background-color: #c0a9a9; */
+   
+    margin-top: 14.4rem;
+}
+
+.right-div{
+    width: 40%;
+    /* background-color: blanchedalmond; */
+    margin-top: 13rem;
+    /* background: transparent; */
+}
+
+/* --------Left Content-------- */
+
+.left-content{
+    justify-content: center;
+    width: 80%;
+    margin: 0rem 8% ;
+    /* background-color: aqua; */
+    
+}
+
+#getsize{
+    font-size: 5rem;
+    
+    /* color: rgb(241, 237, 237); */
+}
+
+#psize{
+    font-size: 1.3rem;
+}
+
+
+/* -------Right content-------- */
+
+.right-content{
+    justify-content: center;
+    width: 80%;
+    margin: 0rem 8% ;
+    /* background-color: aqua; */
+}
+
+.pl-div{
+    margin-top: 5rem;
+    font-size: 1.3rem;
+}
+
+.btn-style{
+    margin-top: 3rem;
+    padding: 0.6rem;
+    font-size: 0.9rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+/* --------Mid Content------------ */
+
+.mid-content{
+    width: 90%;
+    display: flex;
+    /* background-color: #5d8778; */
+    margin-left: 5%;
+    padding-top: 2rem;
+    text-align: center;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+/* -------mid con text----- */
+.imd-con-trxt{
+    
+    width: 33.3%;
+    border-right: 0.1rem solid black;
+    padding-left: 2.8rem;
+}
+ 
+
+@keyframes slideInLeft{
+    from {
+        transform: translatex(-200px);
+        -webkit-transform: translatex(-200px);
+        -moz-transform: translatex(-200px);
+        -ms-transform: translatex(-200px);
+        -o-transform: translatex(-200px);
+}
+
+to {
+    transform: translatex(0px);
+    -webkit-transform: translatex(0px);
+    -moz-transform: translatex(0px);
+    -ms-transform: translatex(0px);
+    -o-transform: translatex(0px);
+}
+}
+
+.mid-img{
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-left: 45%;
+    margin-bottom: 1rem;
+    border: 0.1rem solid black;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+
+
+
+    .slideInLeft{
+        animation-name: slideInLeft;
+        animation-timing-function: ease-in;
+        
+    }
+
+.animation{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+#pf-size{
+    font-size: 1.2rem;
+}
+
+/* -------mid img----------- */
+
+.ic-img{
+    font-size: 2rem;
+    padding-top:0.5rem ;
+}
+
+#h-text{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+/* second Mid */
+.second-content{
+
+    width: 90%;
+    display: flex;
+    background-color: #b1c3bc;
+    margin-left: 5%;
+    padding-top: 2rem;
+    text-align: center;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    height: 80px;
+    margin-top: 50px;
+}
+.mstyle{
+    width: 33.3%;
+    /* border-right: 0.1rem solid black; */
+    padding-left: 2.8rem;
+}
+
+.fab{
+    font-size: 25px;
+
+}
+
+.fa-youtube{
+    color: red;
+}
+
+.fa-facebook-f{
+    color: rgb(127, 4, 242);
+}
+
+.fa-instagram{
+    font-size: 30px;
+    font-weight: 1000;
+    /*Adjustsizeasneeded*/
+    display: inline-block;
+    background: linear-gradient(45deg, #3f4081, #ff7300, #003cff, #48ff00, #00ffee, #2b65ff, #ff2600, #003cff, #003cff, #fe2600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 3s infinite linear;
+    background-size: 300% 300%;
+    -webkit-animation: gradientMove 3s infinite linear;
+}
+
+
+/* ------ End mid text------ */
+
+
+
+/* ----------Footetr----------- */
+
+footer{
+   
+    width: 100%;
+    
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-top: 3em;
+    padding: 2rem 0;
+    background-color: black;
+}
+
+/* footer {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    padding: 2rem 0;
+    background-color: black;
+} */
+
+
+@media screen and (max-width: 768px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+
+body{
+    width: 100%;
+}
+     /* ------------ Contact Youtube, facebook  ------------- */
+    .second-content{
+        width: 93.5%;
+        margin: 0 1% ;
+        padding-top: 1rem;
+        text-align: center;
+        /* padding-right: 2%; */
+        padding: 2% ;
+    
+        }
+
+/* ---------- Div 1. top se -------------- */
+.left-div{
+    margin-top: 10.4rem;
+}
+
+
+.left-content{
+    width: 95%;
+}
+
+
+#getsize{
+    font-size: 4rem;
+    
+
+}
+
+#psize{
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------  Mid - Content ------------*/
+
+        .mid-content{
+            flex-direction: column;
+          width: 100%;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            /* background-color: #48ff00; */
+            
+            
+        }
+
+        .imd-con-trxt{
+    
+            width: 50%;
+            border: none;
+            border-bottom: 0.1rem solid black;
+            /* border-right: 0.1rem solid black; */
+            margin: 0.5rem 26%;
+            padding: 0.5rem 0;
+            text-align: center;
+            justify-content:center;
+            align-items: center;
+            /* background-color: #003cff; */
+        }
+
+
+  }
+
+
+/* 
+@media only screen and (max-width: 768px) {
+
+
+} */
