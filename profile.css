@@ -5,11 +5,11 @@
   }
   
   body {
-    font-family: 'Segoe UI', sans-serif;
+
     line-height: 1.6;
     background-color: #fdfdfd;
     color: #333;
-    font-family: none;
+
   }
   
   header.hero {
